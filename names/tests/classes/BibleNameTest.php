@@ -9,8 +9,8 @@ class BibleNameTest extends \PHPUnit_Framework_TestCase
     public function testName()
     {
         $bible_name = new BibleName();
-        $bible_name->name('Job');
+        $bible_name->setName('Job');
 
-        var_dump($bible_name); exit;
+        $this->assertEquals('Job', $bible_name->name());
     }
 }

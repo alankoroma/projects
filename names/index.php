@@ -8,6 +8,6 @@ require(dirname(__FILE__) . '/vendor/autoload.php');
 
 
 $bible_name = new App\BibleName();
-$bible_name->name('Job');
+$bible_name->setName('Job');
 
 var_dump($bible_name); exit;

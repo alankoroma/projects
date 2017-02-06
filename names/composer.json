@@ -2,8 +2,9 @@
     "name": "Alan-Koroma",
     "type": "project",
     "require": {
-
+        "snap/bible-books": "0.1.*"
     },
+    "minimum-stability": "dev",
     "require-dev": {
         "phpunit/phpunit": "^5.1",
         "phpunit/dbunit": "^2.0"
