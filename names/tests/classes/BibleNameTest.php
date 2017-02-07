@@ -6,11 +6,13 @@ use App\BibleName;
 
 class BibleNameTest extends \PHPUnit_Framework_TestCase
 {
-    public function testName()
+    public function testGetNames()
     {
-        $bible_name = new BibleName();
-        $bible_name->setName('Job');
+        $bible_names = new BibleNames();
+        $names = $bible_names->getNames();
 
-        $this->assertEquals('Job', $bible_name->name());
+        $this->assertContains('Job', $names);
+        $this->assertContains('Numbers', $names);
     }
+
 }
