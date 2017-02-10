@@ -65,10 +65,12 @@ require(dirname(__FILE__) . '/bootstrap.php');
         $bibleNames = new App\BibleNames();
         $names = $bibleNames->findNames($string);
 
+        $book_count = count($names);
+
         $name_string = implode(", ", $names);
 
         if (empty($name_string)) {
-            $name_string = 'No Bible Names Was Found';
+            $name_string = 'No Bible Book Name Was Found';
         }
 
         echo "<script type='text/javascript'>
@@ -89,7 +91,7 @@ require(dirname(__FILE__) . '/bootstrap.php');
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4 class="modal-title">Results</h4>
+          <h4 class="modal-title"><?php echo ($book_count > 0) ? $book_count . ' Books Found' : 'Results'; ?></h4>
         </div>
         <div class="modal-body">
           <p> <?php print $name_string; ?> </p>
