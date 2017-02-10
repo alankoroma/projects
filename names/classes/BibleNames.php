@@ -46,7 +46,6 @@ class BibleNames
             if (strpos(strrev($string), strrev($name)) !== false) {
                 $bible_names_array[] = $name;
             }
-
         }
 
         $bible_names_array = array_unique($bible_names_array);

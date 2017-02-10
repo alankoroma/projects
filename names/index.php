@@ -65,8 +65,10 @@ require(dirname(__FILE__) . '/bootstrap.php');
         $bibleNames = new App\BibleNames();
         $names = $bibleNames->findNames($string);
 
+        $book_count = '';
         $book_count = count($names);
-
+        
+        $name_string = '';
         $name_string = implode(", ", $names);
 
         if (empty($name_string)) {
