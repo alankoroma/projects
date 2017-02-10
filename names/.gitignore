@@ -1,0 +1,6 @@
+vendor/
+*.DS_Store
+*.txt
+*.log
+error_log
+
