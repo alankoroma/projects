@@ -1,0 +1,21 @@
+{
+  "name": "Picture-App",
+  "description": "Sample Pic of the day Application",
+  "version": "1.0.0",
+  "main": "assets/js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-build": "^0.5.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "lodash": "^4.17.4",
+    "vue": "^2.1.8"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

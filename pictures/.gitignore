@@ -1,0 +1,6 @@
+.DS_Store
+*.txt
+*.log
+*.DS_Store
+node_modules
+yarn.lock
