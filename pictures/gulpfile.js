@@ -17,8 +17,7 @@ gulp.task('js-build', function () {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch('assets/js/*.js', ['lint']);
-    gulp.watch('assets/css/*.css', ['sass']);
+    gulp.watch('assets/js/*.js', ['js-build']);
 });
 
 // Default Task

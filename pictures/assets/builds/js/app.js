@@ -1,1 +1,1 @@
-!function(){console.log("hello world"),$("#delete-actor").on("click",function(o){o.preventDefault(),$("#myModal").modal("show"),$("#confirm-delete").on("click",function(o){$("#delete-actor").unbind("click").click()})})}();
+!function(){console.log("hello world"),$("#test-button").on("click",function(o){console.log("hello")})}();
