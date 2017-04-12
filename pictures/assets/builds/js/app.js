@@ -1,1 +1,1 @@
-!function(){console.log("hello world"),$("#test-button").on("click",function(o){console.log("hello")})}();
+!function(){$("#test-button").on("click",function(e){console.log("hello"),alert("Hello World")});new Vue({el:"#editor",data:{message:"Hello Vue!"}})}();

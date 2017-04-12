@@ -1,8 +1,4 @@
 {
-  "name": "Picture-App",
-  "description": "Sample Pic of the day Application",
-  "version": "1.0.0",
-  "main": "assets/js",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-build": "^0.5.3",

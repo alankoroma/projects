@@ -10,23 +10,31 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="">
 
-
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+
+                </div>
                 <div class="col-sm-8">
                     <h1>Hello World</h1>
                     <button id="test-button">Test Gulp</button>
                 </div>
-                <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+                    <div id="editor">
+                        {{ message }}
+                    </div>
+                </div>
             </div>
         </div>
 
 
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/builds/js/jquery/jquery.min.js"></script>
+    <script src="assets/builds/js/vue/vue.min.js"></script>
     <script src="assets/builds/js/app.js"></script>
 
-    </body>
 </html>
