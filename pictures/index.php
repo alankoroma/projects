@@ -7,6 +7,9 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Picture App</title>
 
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="assets/builds/css/bootstrap/bootstrap.min.css" type="text/css" media="screen" />
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="">
 
@@ -29,12 +32,11 @@
             </div>
         </div>
 
-
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/builds/js/jquery/jquery.min.js"></script>
     <script src="assets/builds/js/vue/vue.min.js"></script>
+    <script src="assets/builds/js/jquery/jquery.min.js"></script>
+    <script src="assets/builds/js/bootstrap/Bootstrap.js"></script>
+
     <script src="assets/builds/js/app.js"></script>
 
 </html>
